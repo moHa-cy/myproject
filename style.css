@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+}
+.div-nav{
+    justify-content: flex-end;
+}
+a{
+    margin-bottom: 0px;
+}
+.li-nav{
+    margin-left: 30px;
+    font-family: cursive;
+}
+li a:hover{
+    box-shadow: 0px 5px red;
+}
+.logo{
+    color: white;
+    font-size: 2em;
+    font-family: cursive;
+    cursor: pointer;
+}
+.sec1{
+    height: 100vh;
+}
+.btn-sec1{
+    background-color: orange;
+    border: 3px solid white;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+
+}
+.btn-sec1:hover{
+    background-color: rgb(38, 255, 38);
+}
+.div-sec1{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+    font-family: cursive;
+    color: white;
+}
+.img-sec1{
+    transition: 0.4s;
+}
+.img-sec1:hover{
+    transform: translate(0px ,15px);
+
+}
+.btn-card{
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+}
+.btn-card:hover{
+    background-color: rgb(38, 255, 38);
+}
+.div-card{
+    transition: 0.4s;
+    margin-bottom:100px;
+}
+.div-card:hover{
+    transform:scale(1.03);
+}
+footer{
+    color: white;
+}
+footer a{
+    color: blueviolet;
+}
+footer a:hover{
+    color: red;
+}
+.login{
+    display: grid;
+    justify-items: center;
+    border: 2px solid wheat;
+    width: 400px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+    font-size: medium;
+    color: white;
+    box-shadow: 15px 15px white;
+    margin-top: 60px;
+    
+    
+    
+}
+.login input{
+        width: 390px;
+        height: 30px;
+        border-radius: 20px;
+        padding: 5px;
+        border: none;
+        
+    
+}
+.body-login{
+    background-color: black;
+    display: flex;
+    justify-content:space-around;
+    font-family: cursive;
+    
+    
+}
+.text-login{
+        color: rgb(0, 185, 247);
+        width: 400px;
+        text-align: center;
+        margin-top: 50px;
+    
+    
+}
+.btn-sub{
+    background-color: rgb(44, 216, 238);
+    font-family: cursive;
+    
+    
+    
+}
+
+
+
